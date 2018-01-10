@@ -1,7 +1,7 @@
 require_relative "../lib/move.rb"
 
 describe './bin/move executing a CLI Application' do
-  it 'defines a board variable' do
+  it 'defines a bo variable' do
     allow($stdout).to receive(:puts)
     allow(self).to receive(:gets).and_return("1")
     allow(self).to receive(:move)
